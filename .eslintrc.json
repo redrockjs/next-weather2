@@ -1,3 +1,16 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["eslint:recommended", "next", "prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "react/no-unescaped-entities": 0
+    //"jsx-quotes": [1, "prefer-double"]
+    //    "react/jsx-max-props-per-line": [
+    //      2,
+    //      {
+    //        "maximum": 1,
+    //        "when": "always"
+    //      }
+    //    ]
+  },
+  "plugins": ["prettier"]
 }
